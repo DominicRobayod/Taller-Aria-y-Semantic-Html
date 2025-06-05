@@ -5,86 +5,135 @@
   <title>Deportistas Discapacitados y Gerónimo Benavides</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
-
- </head>
+</head>
 <body>
-
-  <div class="encabezado">
+  <header>
     <h1>INCLUSIÓN EN EL DEPORTE</h1>
-  </div>
-
-  <div class="contenedor">
-    <div class="card">
-      <img src="imagenes/deport1.webp" alt="Marcin Oleksy" class="deport1">
+    <nav aria-label="Navegación principal">
+      <!-- Aquí podrías agregar enlaces de navegación -->
+    </nav>
+  </header>
+  
+  <main>
+    <section class="card" role="region" aria-labelledby="titulo-marcin">
+      <figure>
+        <img src="imagenes/deport1.webp" alt="Marcin Oleksy" class="deport1">
+        <figcaption id="titulo-marcin"></figcaption>
+      </figure>
       <div class="card-content">
         <h2>Marcin Oleksy y su Premio Puskás</h2>
-        <p class="hidden-text">
+        <p class="hidden-text" aria-hidden="true">
           Marcin Oleksy, un futbolista polaco que perdió una pierna en un accidente laboral, se convirtió en el primer jugador amputado en ganar el prestigioso Premio Puskás en 2023. Su increíble gol de chilena para el equipo de Warta Poznań en la liga de fútbol amputado dejó a todos boquiabiertos y demostró que las limitaciones físicas no son un obstáculo para la grandeza en el deporte.
         </p>
-        <button class="toggle-btn">Ver más</button>
+        <button class="toggle-btn" aria-expanded="false" aria-controls="hidden-marcin">Ver más</button>
       </div>
-    </div>
+    </section>
 
-    <div class="card">
-      <img src="imagenes/deport2.jpg" alt="Natalie du Toit" class="deport2">
+    <section class="card" role="region" aria-labelledby="titulo-natalie">
+      <figure>
+        <img src="imagenes/deport2.jpg" alt="Natalie du Toit" class="deport2">
+        <figcaption id="titulo-natalie"></figcaption>
+      </figure>
       <div class="card-content">
         <h2>Natalie du Toit, una nadadora imparable</h2>
-        <p class="hidden-text">
+        <p class="hidden-text" aria-hidden="true">
           Natalie du Toit es una nadadora sudafricana que perdió una pierna en un accidente de moto a los 17 años. Sin embargo, eso no la detuvo: compitió en los Juegos Olímpicos y Paralímpicos, siendo un símbolo de perseverancia y superación.
         </p>
-        <button class="toggle-btn">Ver más</button>
+        <button class="toggle-btn" aria-expanded="false" aria-controls="hidden-natalie">Ver más</button>
       </div>
-    </div>
+    </section>
 
-    <div class="card">
-      <img src="imagenes/deport3.jpg" alt="Alex Zanardi" class="deport3">
+    <section class="card" role="region" aria-labelledby="titulo-zanardi">
+      <figure>
+        <img src="imagenes/deport3.jpg" alt="Alex Zanardi" class="deport3">
+        <figcaption id="titulo-zanardi"></figcaption>
+      </figure>
       <div class="card-content">
         <h2>Alex Zanardi y su regreso a las pistas</h2>
-        <p class="hidden-text">
+        <p class="hidden-text" aria-hidden="true">
           Alex Zanardi, ex piloto de Fórmula 1, perdió ambas piernas en un accidente en 2001. Tras su recuperación, se convirtió en campeón paralímpico de ciclismo en los Juegos de Londres 2012 y Río 2016, demostrando que nada es imposible.
         </p>
-        <button class="toggle-btn">Ver más</button>
+        <button class="toggle-btn" aria-expanded="false" aria-controls="hidden-zanardi">Ver más</button>
       </div>
-    </div>
+    </section>
 
-    <div class="card">
-      <img src="imagenes/deport4.jpg" alt="Gerónimo Benavides en el fútbol para amputados" class="deport4">
+    <section class="card" role="region" aria-labelledby="titulo-geronimo">
+      <figure>
+        <img src="imagenes/deport4.jpg" alt="Gerónimo Benavides en el fútbol para amputados" class="deport4">
+        <figcaption id="titulo-geronimo"></figcaption>
+      </figure>
       <div class="card-content">
         <h2>Gerónimo Benavides y su pasión por el fútbol</h2>
-        <p class="hidden-text">
+        <p class="hidden-text" aria-hidden="true">
           Gerónimo Benavides es un futbolista argentino que, a pesar de las adversidades, nunca dejó de luchar por su pasión: el fútbol. Jugador con discapacidad, Gerónimo ha sido parte de iniciativas para ayudar a su equipo Platense y ha inspirado a muchos con su compromiso y amor por el deporte.
         </p>
-        <button class="toggle-btn">Ver más</button>
+        <button class="toggle-btn" aria-expanded="false" aria-controls="hidden-geronimo">Ver más</button>
       </div>
-    </div>
+    </section>
 
-    <div class="card">
-      <img src="imagenes/deport5.webp" alt="Taty Castellanos entrenando" class="deport5">
+    <section class="card" role="region" aria-labelledby="titulo-taty">
+      <figure>
+        <img src="imagenes/deport5.webp" alt="Taty Castellanos entrenando" class="deport5">
+        <figcaption id="titulo-taty"></figcaption>
+      </figure>
       <div class="card-content">
         <h2>Taty Castellanos y la inclusión en el fútbol</h2>
-        <p class="hidden-text">
+        <p class="hidden-text" aria-hidden="true">
           Taty Castellanos, un jugador que siempre ha abogado por la inclusión en el deporte, ha apoyado a diferentes asociaciones que trabajan con deportistas discapacitados, demostrando que el deporte debe ser un espacio para todos.
         </p>
-        <button class="toggle-btn">Ver más</button>
+        <button class="toggle-btn" aria-expanded="false" aria-controls="hidden-taty">Ver más</button>
       </div>
-    </div>
+    </section>
 
-    <div class="card">
-      <img src="imagenes/deport6.jpg" alt="Jonnie Peacock en plena carrera" class="deport6">
+    <section class="card" role="region" aria-labelledby="titulo-jonnie">
+      <figure>
+        <img src="imagenes/deport6.jpg" alt="Jonnie Peacock en plena carrera" class="deport6">
+        <figcaption id="titulo-jonnie"></figcaption>
+      </figure>
       <div class="card-content">
         <h2>La historia de Jonnie Peacock</h2>
-        <p class="hidden-text">
+        <p class="hidden-text" aria-hidden="true">
           Jonnie Peacock es un atleta británico que perdió una pierna a causa de una enfermedad cuando era niño. Se convirtió en uno de los velocistas más destacados en los Juegos Paralímpicos, obteniendo varias medallas de oro y sirviendo como inspiración para deportistas de todo el mundo.
         </p>
-        <button class="toggle-btn">Ver más</button>
+        <button class="toggle-btn" aria-expanded="false" aria-controls="hidden-jonnie">Ver más</button>
       </div>
-    </div>
-  </div>
+    </section>
 
-  <div class="pie">
+    <section class="card" role="region" aria-labelledby="titulo-trischa">
+      <figure>
+        <img src="imagenes/deport7.png" alt="Trischa Zorn nadadora paralímpica" class="deport7">
+        <figcaption id="titulo-trischa"></figcaption>
+      </figure>
+      <div class="card-content">
+        <h2>Trischa Zorn, la nadadora más laureada de la historia</h2>
+        <p class="hidden-text" aria-hidden="true" id="hidden-trischa">
+          Trischa Zorn es la atleta paralímpica más laureada de la historia, con un total de 55 medallas (41 de oro) obtenidas entre 1980 y 2004. A pesar de nacer con ceguera total, demostró al mundo que la discapacidad no es un límite para alcanzar la grandeza deportiva.
+        </p>
+        <button class="toggle-btn" aria-expanded="false" aria-controls="hidden-trischa">Ver más</button>
+      </div>
+    </section>
+    
+    <section class="card" role="region" aria-labelledby="titulo-mauricio">
+      <figure>
+        <img src="imagenes/deport8.jpg" alt="Mauricio Valencia atleta paralímpico colombiano" class="deport8">
+        <figcaption id="titulo-mauricio"></figcaption>
+      </figure>
+      <div class="card-content">
+        <h2>Mauricio Valencia, orgullo del atletismo adaptado colombiano</h2>
+        <p class="hidden-text" aria-hidden="true" id="hidden-mauricio">
+          Mauricio Valencia es un atleta colombiano especialista en lanzamiento de jabalina y peso. Ha ganado múltiples medallas en los Juegos Paralímpicos y en campeonatos mundiales, destacando por su dedicación y su capacidad de superación en el atletismo adaptado. Es un ejemplo de perseverancia y orgullo para Colombia.
+        </p>
+        <button class="toggle-btn" aria-expanded="false" aria-controls="hidden-mauricio">Ver más</button>
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer>
     <p>&copy; 2025 Historias Inspiradoras</p>
-  </div>
+  </footer>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
